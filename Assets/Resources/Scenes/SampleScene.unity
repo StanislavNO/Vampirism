@@ -963,7 +963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59627399b9f242640829563bca58032d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _health: {fileID: 1657580585}
+  _player: {fileID: 1657580585}
   _vampirismPoints: 1
   _steepAttack: 1
   _attackDuration: 6
