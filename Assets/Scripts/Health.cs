@@ -22,7 +22,7 @@ namespace Assets.Scripts
             LivePoint = _point;
         }
 
-        public void AddPoint(int point)
+        public void AddPoints(int point)
         {
             if (point > _minPoint)
             {
@@ -35,10 +35,10 @@ namespace Assets.Scripts
             }
         }
 
-        public void SetDamage(int damage)
+        public void DeletePoints(int point)
         {
-            if (damage > _minPoint)
-                LivePoint -= damage;
+            if (point > _minPoint)
+                LivePoint -= point;
 
             if (LivePoint <= _minPoint)
                 _livesAreOver.Invoke();
